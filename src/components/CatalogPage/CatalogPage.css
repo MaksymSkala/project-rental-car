@@ -1,0 +1,23 @@
+.catalog-page {
+    margin: 128px;
+    max-width: 1184px;
+    text-align: center;    
+  }
+  
+  .catalog-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .load-more-btn {
+    background-color: transparent;
+    color: #3470FF;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .load-more-btn:hover,
+  .load-more-btn:focus {
+    color: #0B44CD;
+  }

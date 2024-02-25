@@ -1,0 +1,86 @@
+.car-list {
+    display: grid;    
+  grid-template-columns: repeat(4, 1fr); /* Оголошення будуть розміщені в 4 колонки */
+  grid-gap: 29px;
+  }
+
+  .car-image-container {
+    width: 274px;
+    height: 268px;
+    border-radius: 14px;
+  }
+  
+  .car-item {    
+    position: relative; /* Додаємо позиціонування */    
+    width: 274px;
+    border-radius: 14px;    
+  }
+  
+  .car-item img {
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+  }
+  
+  .car-details {
+    display: block;
+    margin-top: 15px;    
+  }
+  
+  .car-details h3 {
+    margin-bottom: 10px;
+    text-align: left;      
+  }
+  
+  .car-details p {
+    text-align: left;
+    margin-bottom: 16px;
+    color: rgba(18, 20, 23, 0.5);
+  }  
+  
+  .favorite-icon {
+    background: none;
+    border: none;
+    cursor: pointer;    
+  }
+  
+  .heart-icon {    
+    position: absolute; /* Додаємо позиціонування */
+    top: 8px; /* Відступ зверху */
+    right: 8px; /* Відступ справа */
+    color: #fff; /* Колір іконки за замовчуванням */
+    cursor: pointer;        
+  }
+  
+  .heart-icon:hover {
+    
+    color: #3470FF; /* Колір іконки при наведенні */
+  }
+
+  .model {
+    color: #3470FF; /* Колір для моделі */
+    font-weight: bold;
+  }
+
+  .rental-price {
+    margin-left: 10px; /* Встановлює відступ зліва для вирівнювання праворуч */
+  }
+
+  .learn-more-btn {
+    background-color: #3470FF; /* Колір кнопки */
+    color: #fff; /* Колір тексту */
+    padding: 10px 20px; /* Відступи кнопки */
+    border: none; /* Видалення рамки */
+    border-radius: 12px;    
+    cursor: pointer; /* Зміна курсора при наведенні */
+    width: 100%; /* Ширина кнопки - 100% ширини контейнера */
+    height: 44px;
+    transition: background-color 0.3s; /* Плавна анімація зміни кольору фону */
+  }
+  
+  .learn-more-btn:hover,
+  .learn-more-btn:focus {
+    background-color: #0B44CD; /* Колір кнопки при наведенні або фокусі */
+  }
+  

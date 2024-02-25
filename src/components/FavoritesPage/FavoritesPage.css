@@ -1,0 +1,23 @@
+.favorites-page {
+    padding: 20px;
+  }
+  
+  .favorites-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  .favorites-page ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .favorites-page li {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .favorites-page li h3 {
+    margin-top: 0;
+  }

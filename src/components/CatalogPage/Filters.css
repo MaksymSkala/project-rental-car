@@ -1,0 +1,46 @@
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;    
+  }
+  
+  .input-group {
+    margin-right: 20px;
+    color: #8A8A89;
+  }
+  
+  .input-group:last-child {
+    margin-right: 0;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: start;
+  }
+  
+  .input-group select,
+  .input-group input[type='number'] {
+    padding: 0 25px;
+    border: none;
+    height: 48px;
+    border-radius: 14px;
+    background-color: #F7F7FB;
+  }
+  
+  .filters button {
+    margin-top: 27px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 12px;
+    width: 136px;
+    height: 48px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .filters button:hover {
+    background-color: #0056b3;
+  }
